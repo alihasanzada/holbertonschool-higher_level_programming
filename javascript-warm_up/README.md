@@ -11,3 +11,4 @@ importing files.
 - 2-arguments.js: print a message depending on the number of arguments
 - 3-value_argument.js: print the first argument passed to the script
 - 4-concat.js: print two arguments in the format "<arg1> is <arg2>"
+- 5-to_integer.js: print the first argument converted to an integer, or "Not a number"
