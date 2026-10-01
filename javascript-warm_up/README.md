@@ -14,3 +14,4 @@ importing files.
 - 5-to_integer.js: print the first argument converted to an integer, or "Not a number"
 - 6-multi_languages_loop.js: print 3 lines using an array and a loop
 - 7-multi_c.js: print "C is fun" x times, where x is the first argument
+- 8-square.js: print a square of X characters using the first argument as size
