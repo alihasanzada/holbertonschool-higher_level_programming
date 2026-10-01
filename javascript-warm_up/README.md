@@ -17,3 +17,4 @@ importing files.
 - 8-square.js: print a square of X characters using the first argument as size
 - 9-add.js: print the addition of 2 integers using an add function
 - 10-factorial.js: compute and print a factorial recursively
+- 11-second_biggest.js: print the second biggest integer in the list of arguments
