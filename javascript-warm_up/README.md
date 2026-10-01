@@ -21,3 +21,4 @@ importing files.
 - 12-object.js: update an object value from 12 to 89
 - 13-add.js: export a function add that returns the addition of 2 integers
 - 100-let_me_const.js: modify the value of myVar to 333
+- 101-call_me_moby.js: export a function that executes another function x times
