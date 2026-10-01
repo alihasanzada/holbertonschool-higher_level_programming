@@ -7,3 +7,4 @@ importing files.
 ## Tasks
 
 - 0-javascript_is_amazing.js: print "JavaScript is amazing" using a constant
+- 1-multi_languages.js: print 3 lines using console.log
