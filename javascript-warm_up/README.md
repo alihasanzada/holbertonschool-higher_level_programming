@@ -8,3 +8,4 @@ importing files.
 
 - 0-javascript_is_amazing.js: print "JavaScript is amazing" using a constant
 - 1-multi_languages.js: print 3 lines using console.log
+- 2-arguments.js: print a message depending on the number of arguments
