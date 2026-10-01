@@ -19,3 +19,4 @@ importing files.
 - 10-factorial.js: compute and print a factorial recursively
 - 11-second_biggest.js: print the second biggest integer in the list of arguments
 - 12-object.js: update an object value from 12 to 89
+- 13-add.js: export a function add that returns the addition of 2 integers
