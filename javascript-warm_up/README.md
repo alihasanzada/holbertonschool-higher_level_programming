@@ -16,3 +16,4 @@ importing files.
 - 7-multi_c.js: print "C is fun" x times, where x is the first argument
 - 8-square.js: print a square of X characters using the first argument as size
 - 9-add.js: print the addition of 2 integers using an add function
+- 10-factorial.js: compute and print a factorial recursively
