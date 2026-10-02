@@ -6,17 +6,17 @@ database followed by its cities, using only one query to the database.
 """
 import sys
 from sqlalchemy import create_engine
+from sqlalchemy.engine import URL
 from sqlalchemy.orm import Session, contains_eager
-from relationship_state import Base, State
+from relationship_state import State
 from relationship_city import City
 
 
 def list_states_cities(username, password, db_name):
     """Print all states and their cities, sorted by state and city id."""
-    engine = create_engine(
-        "mysql+mysqldb://{}:{}@localhost:3306/{}".format(
-            username, password, db_name),
-        pool_pre_ping=True)
+    url = URL.create("mysql+mysqldb", username=username, password=password,
+                     host="localhost", port=3306, database=db_name)
+    engine = create_engine(url, pool_pre_ping=True)
     session = Session(engine)
     states = (session.query(State)
               .outerjoin(State.cities)
