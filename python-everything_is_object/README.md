@@ -25,3 +25,12 @@ types, identity, mutability, and how variables reference objects.
 - 17-answer.txt: output after appending to a list in a function
 - 18-answer.txt: output after assigning a list in a function
 - 19-copy_list.py: function that returns a copy of a list
+- 20-answer.txt: is a = () a tuple
+- 21-answer.txt: is a = (1, 2) a tuple
+- 22-answer.txt: is a = (1) a tuple
+- 23-answer.txt: is a = (1, ) a tuple
+- 24-answer.txt: output of comparing two (1) with is
+- 25-answer.txt: output of comparing two (1, 2) tuples with is
+- 26-answer.txt: output of comparing two empty tuples with is
+- 27-answer.txt: id of a list after a = a + [5]
+- 28-answer.txt: id of a list after a += [4]
